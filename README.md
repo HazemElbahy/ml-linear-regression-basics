@@ -36,3 +36,20 @@ This project is based on an IBM Machine Learning lab and extended with my own un
 ## Model Visualization
 
 ![Regression Plot](plot.png)
+
+## Visualizations
+
+### 1. Data Distribution (Histogram)
+![Histogram](histogram.png)
+
+### 2. Fuel Consumption vs CO2
+![Fuel vs CO2](fuel_vs_co2.png)
+
+### 3. Engine Size vs CO2
+![Engine vs CO2](engine_vs_co2.png)
+
+### 4. Cylinders vs CO2
+![Cylinders vs CO2](cylinders_vs_co2.png)
+
+### 5. Final Model (Regression Line)
+![Final Model](final_model.png)
