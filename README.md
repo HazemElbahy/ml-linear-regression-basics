@@ -1,29 +1,34 @@
-# Simple Linear Regression — ML Basics
+# Simple Linear Regression — CO2 Emissions
 
-## Overview
-This project demonstrates a simple linear regression model using Python and scikit-learn.
+## 🎯 Problem
+Predict **CO2 emissions** of cars using a single feature (**engine size**).
 
-## What I did
-- Loaded real dataset
-- Visualized relationships between variables
-- Built a regression model
-- Evaluated model performance (MAE, MSE, R²)
+## ⚙️ Approach
+- Data exploration (Pandas, Matplotlib)
+- Visualize relationships (scatter plots)
+- Train **Linear Regression** model (scikit-learn)
+- Evaluate with **MAE, MSE, R²**
 
-## Key Insight
-Regression models learn a relationship between variables to predict continuous values.
+## 📊 Results
+- R² ≈ 0.76 → the model explains ~76% of the variance
+- MAE ≈ 24 → average prediction error
 
-## QCare Mapping
-This concept can be applied to:
-- Predict product suitability score
-- Rank products based on user needs
-- Combine ML scoring with LLM explanations
+## 🧠 Key Insight
+Linear Regression learns a **line (y = a + bx)** that best fits the data and enables **numeric prediction**.
 
-## Tools Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
+## 🧩 QCare Mapping
+This concept can power a **scoring engine**:
+- Input: product/user features  
+- Output: **suitability score (0–1)**  
+- LLM then **explains** the score to the user
 
-## Note
-This project is based on an IBM Machine Learning learning lab.
+## 🚀 How to Run
+1. Open in Google Colab  
+2. Run all cells  
+3. View plots and metrics
+
+## 🛠️ Tech Stack
+Python, Pandas, NumPy, Matplotlib, Scikit-learn
+
+## 📌 Note
+This project is based on an IBM Machine Learning lab and extended with my own understanding and mapping to real systems.
