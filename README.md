@@ -32,3 +32,7 @@ Python, Pandas, NumPy, Matplotlib, Scikit-learn
 
 ## 📌 Note
 This project is based on an IBM Machine Learning lab and extended with my own understanding and mapping to real systems.
+
+## Model Visualization
+
+![Regression Plot](plot.png)
