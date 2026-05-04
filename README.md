@@ -52,4 +52,4 @@ This project is based on an IBM Machine Learning lab and extended with my own un
 ![Cylinders vs CO2](cylinders_vs_co2.png)
 
 ### 5. Final Model (Regression Line)
-![Final Model](final_model.png)
+![Final Model](linear_regression_model.png)
